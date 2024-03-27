@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "sora" sans-serif;
+}
+
+.row h1 {
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-collapse a {
+    color: white;
+}
+
+.hero {
+    background-color: #000;
+
+}
+
+span {
+    color: rgba(123, 216, 96, 1);
+}
+
+.hero a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
+    border: 2px solid #fff;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.hero {
+    color: #fff;
+    line-height: 1.7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.services-header h2 {
+    margin-left: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.services-header p {
+    margin-left: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.services {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    margin: 10px;
+}
+
+.services-header {
+    margin-bottom: 40px;
+}
+
+.services-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.service-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+}
+
+.service {
+    background-color: #d2f4ea;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service h3 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #999;
+}
+
+.service img {
+    width: 100%;
+    /* Adjust width as needed */
+    display: block;
+    /* Ensures image fills container width */
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    height: 20vh;
+    background-color: #000;
+    text-align: center
+}
+
+footer p {
+    color: #f0f0f0;
+}
